@@ -2,6 +2,7 @@ package tests.E05;
 
 import EFP.E05.Calculator;
 import org.junit.Assert;
+import org.junit.Test;
 
 
 public class CalculatorTest {
@@ -9,6 +10,7 @@ public class CalculatorTest {
         return new Calculator();
     }
 
+    @Test
     public void add_WhenCalled_ReturnsSum() {
         Calculator calculator = makeCalculator();
 
@@ -18,6 +20,7 @@ public class CalculatorTest {
         Assert.assertEquals(expected, sum);
     }
 
+    @Test
     public void subtract_WhenCalled_ReturnsDifference() {
         Calculator calculator = makeCalculator();
 
@@ -27,6 +30,7 @@ public class CalculatorTest {
         Assert.assertEquals(expected, difference);
     }
 
+    @Test
     public void multiply_WhenCalled_ReturnsProduct() {
         Calculator calculator = makeCalculator();
 
@@ -36,6 +40,7 @@ public class CalculatorTest {
         Assert.assertEquals(expected, product);
     }
 
+    @Test
     public void divide_WhenCalled_ReturnsQuotient() {
         Calculator calculator = makeCalculator();
 
