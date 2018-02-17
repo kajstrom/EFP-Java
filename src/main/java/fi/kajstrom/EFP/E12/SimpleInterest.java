@@ -1,4 +1,4 @@
-package EFP.E12;
+package fi.kajstrom.EFP.E12;
 
 public class SimpleInterest {
     public Double forInvestment(Integer investment, Double rate, Integer years) {

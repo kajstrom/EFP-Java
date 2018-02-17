@@ -1,6 +1,7 @@
-package EFP.E12;
+package fi.kajstrom.EFP.E12;
 
-import EFP.Console;
+
+import fi.kajstrom.EFP.Console;
 
 public class E12 {
     public static void main(String args[]) {

@@ -1,6 +1,7 @@
-package EFP.E12;
+package fi.kajstrom.EFP.E12;
 
-import EFP.Console;
+
+import fi.kajstrom.EFP.Console;
 
 import java.math.RoundingMode;
 import java.text.DecimalFormat;

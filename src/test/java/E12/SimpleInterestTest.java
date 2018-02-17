@@ -1,6 +1,6 @@
-package tests.E12;
+package E12;
 
-import EFP.E12.SimpleInterest;
+import fi.kajstrom.EFP.E12.SimpleInterest;
 import org.junit.Assert;
 import org.junit.Test;
 
