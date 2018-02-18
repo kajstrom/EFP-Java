@@ -28,4 +28,9 @@ public class Console {
             return "";
         }
     }
+
+    public String readLine(String prompt) {
+        print(prompt + " ");
+        return readLine();
+    }
 }
